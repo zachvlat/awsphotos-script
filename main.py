@@ -2,13 +2,13 @@ print("this is my aws-photo-app-lazy-invalidation-builder");
 
 print("    .")
 print("   ...")
-print("  ......")
-print(" ........")
-print(".......... MERRY CHRISTMAS")
+print("  .....")
+print(" .......")
+print("......... MERRY CHRISTMAS")
+print("    Π")
 print("      ")
 
 photoCode = input("What is the photo code?: ")
-
 print("      ")
 
 print("/verybig/"+photoCode+"@4.JPG")
