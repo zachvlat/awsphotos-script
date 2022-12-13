@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Invalidation Tool</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form name="simpleForm">
+        <p>
+            <label>
+                Title: <input type="text" id="photoCode" />
+            </label>
+        </p>
+        <input type="button" id="append" value="Click me" onclick="deployPhotoString()" />
+    </form>
+    <table id="photoTable">
+        <thead>
+            <tr>
+                <th>
+                </th>
+            </tr>
+        </thead>
+        <td>
+        </td>
+    </table>
+    <br>
+    <input type="button" id="clear" value="Clear all" onclick="clearAll()" />
+</body>
+
+</html>
