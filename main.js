@@ -21,10 +21,10 @@ function deployPhotoString() {
     const cell3 = row.insertCell();
     const cell4 = row.insertCell();
 
-    cell1.innerHTML = `<pre>/verybig/${photoCode}@${size}.JPG\n</pre>`;
-    cell2.innerHTML = `<pre>/verybig/${photoCode}@${size}.jpg\n</pre>`;
-    cell3.innerHTML = `<pre>/small/${photoCode}@${size}.JPG\n</pre>`;
-    cell4.innerHTML = `<pre>/small/${photoCode}@${size}.jpg\n</pre>`;
+    cell1.innerHTML = `/verybig/${photoCode}@${size}.JPG\n`;
+    cell2.innerHTML = `/verybig/${photoCode}@${size}.jpg\n`;
+    cell3.innerHTML = `/small/${photoCode}@${size}.JPG\n`;
+    cell4.innerHTML = `/small/${photoCode}@${size}.jpg\n`;
   });
 }
 
