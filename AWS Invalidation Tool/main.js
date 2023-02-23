@@ -1,31 +1,34 @@
+const sizes = ["2", "3", "4", "5", "6", "7", "1F", "2F"];
+
 function deployPhotoString() {
-  let photoCode = document.getElementById("photoCode").value;
+  const photoCode = document.getElementById("photoCode").value;
+  const sizeCode = document.getElementById("sizeCode").value;
 
-  let table = document
-    .getElementById("photoTable")
-    .getElementsByTagName("tbody")[0];
+  let selectedSizes = [];
+  if (sizeCode.toLowerCase() === "all") {
+    selectedSizes = sizes;
+  } else {
+    selectedSizes = [sizeCode];
+  }
 
-  let newRow = table.insertRow();
-  let titleCell = newRow.insertCell(0);
+  const table = document.getElementById("photoTable");
+  table.innerHTML = "";
 
-  let photoNode = document.createTextNode(photoCode);
-  let photoBig = document.createTextNode("/verybig/");
-  let photoSmall = document.createTextNode("/small/");
-  let jpg = document.createTextNode(".jpg");
-  let jpgBig = document.createTextNode(".JPG");
-  let four = document.createTextNode("@4");
-  let five = document.createTextNode("@5");
-  let six = document.createTextNode("@6");
-  let oneF = document.createTextNode("@1F");
-  let twoF = document.createTextNode("@2F");
+  selectedSizes.forEach((size) => {
+    const row = table.insertRow();
+    const cell1 = row.insertCell();
+    const cell2 = row.insertCell();
+    const cell3 = row.insertCell();
+    const cell4 = row.insertCell();
 
-  titleCell.append(photoBig) +
-    titleCell.append(photoNode) +
-    titleCell.append(four) +
-    titleCell.append(jpg);
+    cell1.innerHTML = `<pre>/verybig/${photoCode}@${size}.JPG\n</pre>`;
+    cell2.innerHTML = `<pre>/verybig/${photoCode}@${size}.jpg\n</pre>`;
+    cell3.innerHTML = `<pre>/small/${photoCode}@${size}.JPG\n</pre>`;
+    cell4.innerHTML = `<pre>/small/${photoCode}@${size}.jpg\n</pre>`;
+  });
 }
 
 function clearAll() {
-  let clearall = document.getElementById("photoTable").rows;
-  while (clearall.length > 0) trs[0].parentNode.removeChild(trs[0]);
+  const table = document.getElementById("photoTable");
+  table.innerHTML = "<thead><tr><th></th></tr></thead><tbody></tbody>";
 }

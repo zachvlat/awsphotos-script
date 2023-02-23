@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWS Invalidation Tool</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
     <form name="simpleForm">
         <p>
             <label>
-                Title: <input type="text" id="photoCode" />
+                Photo Code: <input type="text" id="photoCode" />
+            </label>
+        </p>
+        <p>
+            <label>
+                Size Code: <input type="text" id="sizeCode" />
             </label>
         </p>
         <input type="button" id="append" value="Click me" onclick="deployPhotoString()" />
@@ -20,12 +26,10 @@
     <table id="photoTable">
         <thead>
             <tr>
-                <th>
-                </th>
             </tr>
         </thead>
-        <td>
-        </td>
+        <tbody>
+        </tbody>
     </table>
     <br>
     <input type="button" id="clear" value="Clear all" onclick="clearAll()" />
