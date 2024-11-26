@@ -1,0 +1,298 @@
+[
+  {
+    "number": "69",
+    "name": "Bartlomiej Dragowski",
+    "position": "Goalkeeper",
+    "country": "Poland",
+    "age": "27",
+    "value": "€3.00m"
+  },
+  {
+    "number": "1",
+    "name": "Yuriy Lodygin",
+    "position": "Goalkeeper",
+    "country": "Russia",
+    "age": "34",
+    "value": "€400k"
+  },
+  {
+    "number": "81",
+    "name": "Klidman Lilo",
+    "position": "Goalkeeper",
+    "country": "Albania",
+    "age": "21",
+    "value": "€100k"
+  },
+  {
+    "number": "82",
+    "name": "Georgios Karakasidis",
+    "position": "Goalkeeper",
+    "country": "Greece",
+    "age": "19",
+    "value": "€100k"
+  },
+  {
+    "number": "15",
+    "name": "Sverrir Ingi Ingason",
+    "position": "Centre-Back",
+    "country": "Iceland",
+    "age": "31",
+    "value": "€3.50m"
+  },
+  {
+    "number": "21",
+    "name": "Tin Jedvaj",
+    "position": "Centre-Back",
+    "country": "Croatia",
+    "age": "28",
+    "value": "€2.50m"
+  },
+  {
+    "number": "5",
+    "name": "Bart Schenkeveld",
+    "position": "Centre-Back",
+    "country": "Netherlands",
+    "age": "33",
+    "value": "€1.20m"
+  },
+  {
+    "number": "14",
+    "name": "Erik Palmer-Brown",
+    "position": "Centre-Back",
+    "country": "United States",
+    "age": "27",
+    "value": "€1.20m"
+  },
+  {
+    "number": "23",
+    "name": "Hördur Magnússon",
+    "position": "Centre-Back",
+    "country": "Iceland",
+    "age": "31",
+    "value": "€1.20m"
+  },
+  {
+    "number": "3",
+    "name": "Philipp Max",
+    "position": "Left-Back",
+    "country": "Germany",
+    "age": "31",
+    "value": "€1.80m"
+  },
+  {
+    "number": "25",
+    "name": "Filip Mladenovic",
+    "position": "Left-Back",
+    "country": "Serbia",
+    "age": "33",
+    "value": "€900k"
+  },
+  {
+    "number": "26",
+    "name": "Elton Fikaj",
+    "position": "Left-Back",
+    "country": "Albania",
+    "age": "19",
+    "value": "€250k"
+  },
+  {
+    "number": "2",
+    "name": "Georgios Vagiannidis",
+    "position": "Right-Back",
+    "country": "Greece",
+    "age": "23",
+    "value": "€5.00m"
+  },
+  {
+    "number": "27",
+    "name": "Giannis Kotsiras",
+    "position": "Right-Back",
+    "country": "Greece",
+    "age": "31",
+    "value": "€800k"
+  },
+  {
+    "number": "55",
+    "name": "Willian Arão",
+    "position": "Defensive Midfield",
+    "country": "Brazil",
+    "age": "32",
+    "value": "€2.50m"
+  },
+  {
+    "number": "4",
+    "name": "Rubén Pérez",
+    "position": "Defensive Midfield",
+    "country": "Spain",
+    "age": "35",
+    "value": "€500k"
+  },
+  {
+    "number": "90",
+    "name": "Leandro Frroku",
+    "position": "Defensive Midfield",
+    "country": "Albania",
+    "age": "21",
+    "value": "€200k"
+  },
+  {
+    "number": "8",
+    "name": "Azzedine Ounahi",
+    "position": "Central Midfield",
+    "country": "Morocco",
+    "age": "24",
+    "value": "€12.00m"
+  },
+  {
+    "number": "20",
+    "name": "Nemanja Maksimovic",
+    "position": "Central Midfield",
+    "country": "Serbia",
+    "age": "29",
+    "value": "€5.50m"
+  },
+  {
+    "number": "16",
+    "name": "Adam Gnezda Cerin",
+    "position": "Central Midfield",
+    "country": "Slovenia",
+    "age": "25",
+    "value": "€4.50m"
+  },
+  {
+    "number": "52",
+    "name": "Tonny Vilhena",
+    "position": "Central Midfield",
+    "country": "Netherlands",
+    "age": "29",
+    "value": "€2.50m"
+  },
+  {
+    "number": "19",
+    "name": "Alexis Trouillet",
+    "position": "Central Midfield",
+    "country": "France",
+    "age": "23",
+    "value": "€800k"
+  },
+  {
+    "number": "44",
+    "name": "Georgios Nikas",
+    "position": "Central Midfield",
+    "country": "Greece",
+    "age": "25",
+    "value": "€500k"
+  },
+  {
+    "number": "6",
+    "name": "Zeca",
+    "position": "Central Midfield",
+    "country": "Greece",
+    "age": "36",
+    "value": "€250k"
+  },
+  {
+    "number": "11",
+    "name": "Anastasios Bakasetas",
+    "position": "Attacking Midfield",
+    "country": "Greece",
+    "age": "31",
+    "value": "€5.00m"
+  },
+  {
+    "number": "31",
+    "name": "Filip Djuricic",
+    "position": "Attacking Midfield",
+    "country": "Serbia",
+    "age": "32",
+    "value": "€1.50m"
+  },
+  {
+    "number": "37",
+    "name": "László Kleinheisler",
+    "position": "Attacking Midfield",
+    "country": "Hungary",
+    "age": "30",
+    "value": "€1.20m"
+  },
+  {
+    "number": "30",
+    "name": "Adriano Bregou",
+    "position": "Attacking Midfield",
+    "country": "Greece",
+    "age": "18",
+    "value": null
+  },
+  {
+    "number": "77",
+    "name": "Benjamin Verbic",
+    "position": "Left Winger",
+    "country": "Slovenia",
+    "age": "30",
+    "value": "€1.80m"
+  },
+  {
+    "number": "10",
+    "name": "Tetê",
+    "position": "Right Winger",
+    "country": "Brazil",
+    "age": "24",
+    "value": "€10.00m"
+  },
+  {
+    "number": "28",
+    "name": "Facundo Pellistri",
+    "position": "Right Winger",
+    "country": "Uruguay",
+    "age": "22",
+    "value": "€10.00m"
+  },
+  {
+    "number": "17",
+    "name": "Daniel Mancini",
+    "position": "Right Winger",
+    "country": "Argentina",
+    "age": "28",
+    "value": "€3.00m"
+  },
+  {
+    "number": "18",
+    "name": "Dimitrios Limnios",
+    "position": "Right Winger",
+    "country": "Greece",
+    "age": "26",
+    "value": "€900k"
+  },
+  {
+    "number": "7",
+    "name": "Fotis Ioannidis",
+    "position": "Centre-Forward",
+    "country": "Greece",
+    "age": "24",
+    "value": "€18.00m"
+  },
+  {
+    "number": "9",
+    "name": "Andraz Sporar",
+    "position": "Centre-Forward",
+    "country": "Slovenia",
+    "age": "30",
+    "value": "€3.50m"
+  },
+  {
+    "number": "29",
+    "name": "Alexander Jeremejeff",
+    "position": "Centre-Forward",
+    "country": "Sweden",
+    "age": "31",
+    "value": "€1.50m"
+  },
+  {
+    "number": "80",
+    "name": "Athanasios Dabizas",
+    "position": "Centre-Forward",
+    "country": "Greece",
+    "age": "20",
+    "value": "€75k"
+  }
+]
