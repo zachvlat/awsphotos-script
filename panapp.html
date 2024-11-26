@@ -1,50 +1,99 @@
-<div style="background-color:#124728;font-size:35px;color:white;margin-left:100px;margin-right:100px;">
-  <h1 style="text-align:center;">Next match</h1>
-  <div style="text-align:center;" title="UEFA Conference League" class="hervorgehobener_link">UEFA Conference League</a> - <div title="Group Stage">League Stage</div>
-    Thu, Nov 28, 2024 - 7:45 PM hours
-  </div>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #124728;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
 
-  <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <div class="wappen">
-      <div style="text-align:center;">
-        <div title="Panathinaikos FC"><img src="https://tmssl.akamaized.net//images/wappen/normquad/265.png?lm=1629382830" title="Panathinaikos FC" alt="Panathinaikos FC" class=""></div>
-      </div>
-      <div>
-        <div>Panathinaikos</div>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 35px;
+  }
+
+  .match-section {
+    margin-bottom: 40px;
+    border: 1px solid green;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  .match-header {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .match-date {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .team {
+    text-align: center;
+  }
+
+  .team img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .team-name {
+    font-size: 18px;
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Next Matches</h1>
+
+    <!-- Match 1 -->
+    <div class="match-section">
+      <div class="match-header">UEFA Conference League - League Stage</div>
+      <div class="match-date">Thu, Nov 28, 2024 - 7:45 PM</div>
+      <div class="team-grid">
+        <div class="team">
+          <img src="https://tmssl.akamaized.net//images/wappen/normquad/265.png?lm=1629382830" alt="Panathinaikos FC">
+          <div class="team-name">Panathinaikos</div>
+        </div>
+        <div class="team">
+          <img src="https://tmssl.akamaized.net//images/wappen/normquad/1008.png?lm=1653665348" alt="HJK Helsinki">
+          <div class="team-name">HJK Helsinki</div>
+        </div>
       </div>
     </div>
 
-    <div class="wappen">
-      <div style="text-align:center;">
-        <a title="HJK Helsinki" href="/hjk-helsinki/spielplan/verein/1008/saison_id/2024"><img src="https://tmssl.akamaized.net//images/wappen/normquad/1008.png?lm=1653665348" title="HJK Helsinki" alt="HJK Helsinki" class=""></a>
-      </div>
-      <div>
-        <div>HJK Helsinki</div>
-      </div>
-    </div>
-  </div>
-  <br />
-  <div style="text-align:center;" title="UEFA Conference League" class="hervorgehobener_link">Euroleague</a> - <div title="Group Stage">League Stage</div>
-    Fri, Nov 29, 2024 - 9:45 PM hours
-  </div>
-
-  <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-    <div class="wappen">
-      <div style="text-align:center;">
-        <div title="Panathinaikos FC"><img src="https://api.sofascore.app/api/v1/team/3508/image" title="Panathinaikos FC" alt="Panathinaikos FC" class=""></div>
-      </div>
-      <div>
-        <div>Panathinaikos Aktor</div>
+    <!-- Match 2 -->
+    <div class="match-section">
+      <div class="match-header">Euroleague - League Stage</div>
+      <div class="match-date">Fri, Nov 29, 2024 - 9:45 PM</div>
+      <div class="team-grid">
+        <div class="team">
+          <img src="https://api.sofascore.app/api/v1/team/3508/image" alt="Panathinaikos Aktor">
+          <div class="team-name">Panathinaikos Aktor</div>
+        </div>
+        <div class="team">
+          <img src="https://api.sofascore.app/api/v1/team/176220/image" alt="A.S. Monaco">
+          <div class="team-name">A.S. Monaco</div>
+        </div>
       </div>
     </div>
 
-    <div class="wappen">
-      <div style="text-align:center;">
-        <a title="HJK Helsinki" href="/hjk-helsinki/spielplan/verein/1008/saison_id/2024"><img src="https://api.sofascore.app/api/v1/team/176220/image" title="HJK Helsinki" alt="HJK Helsinki" class=""></a>
-      </div>
-      <div>
-        <div>A.S. Monaco</div>
-      </div>
-    </div>
   </div>
-</div>
